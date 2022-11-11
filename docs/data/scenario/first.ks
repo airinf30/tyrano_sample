@@ -1,45 +1,82 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="金欠"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+やばい...[l][r]
 
-メロスは激怒した。[l][r]
-
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
-
-(中略)[l][r]
-
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
-
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
-[s]
-
-*tag_sleep
+お金がない...[l][r]
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+お年玉欲しい[l][r]
+[bg storage=otoshidama.png time=1]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+[cm]
+
+今日は11月11日[l][r]
+ポッキーを買いすぎてしまって口座の残高を含めて全財産11円！！[l][r]
+[bg storage=sweets_pocky.png time=500]
+こうなったら...[1][r]
+お正月まで眠り続けよう[1][r]
+
+[cm]
+[bg storage=kagu_bed.png time=5]
+おやすみなさい...[1][r]
+
+[cm]
+[bg storage=internet_god.png time=50]
+わしがお望みの日数眠り続けさせてあげよう[1][r]
+[link target=*tag_43] →43日 [endlink][r]
+[link target=*tag_51] →51日 [endlink][r]
+[link target=*tag_52] →52日 [endlink][r]
+[s]
+
+*tag_43
+
+[cm]
+
+
+目が覚めたら[l][r]
+クリスマスイブだった[1][r]
+[bg storage=christmasstree.png time=50]
+
+妹にプレゼントをねだられてしまった...
+
 
 【 BAD END 】[l][cm]
 
 [jump target=*start]
 
-*tag_run
-
-[bg storage=run.jpg time=500]
+*tag_52
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+
+
+目が覚めたら[l][r]
+1月2日だった[1][r]
+寝過ごした！！[1][r]
+お年玉ゲットならず...[1][r]
+[bg storage=kinketsu.png time=50]
+
+
+【 BAD END 】[l][cm]
+
+[jump target=*start]
+
+*tag_51
+
+[bg storage=run.jpg time=50]
+
+[cm]
+
+
+目が覚めたら[l][r]
+お正月だった！！！[1][r]
+お年玉ゲット！！！！
+[bg storage=otoshidama.png time=50]
 
 【 GOOD END 】[l][cm]
 
